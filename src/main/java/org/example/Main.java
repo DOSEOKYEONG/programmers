@@ -7,7 +7,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        OXQuiz oxQuiz = new OXQuiz();
-        oxQuiz.solution(new String[]{"3 - 4 = -3", "5 + 6 = 11"});
+        Babbling1 babbling1 = new Babbling1();
+//        babbling1.solution(new String[]{"aya", "yee", "u", "maa", "wyeoo"});
+        babbling1.solution(new String[]{"ayaye", "uuuma", "ye", "yemawoo", "ayaa"});
     }
 }
