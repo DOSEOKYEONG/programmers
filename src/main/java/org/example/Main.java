@@ -8,7 +8,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        CaesarPassword caesarPassword = new CaesarPassword();
-        caesarPassword.solution("ab c y z", 2);
+        SecretMap secretMap = new SecretMap();
+        secretMap.solution(5, new int[]{9, 20, 28, 18, 11}, new int[]{30, 1, 21, 17, 28});
     }
 }
