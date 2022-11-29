@@ -8,7 +8,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        NumberStringAndEnglishWords numberStringAndEnglishWords = new NumberStringAndEnglishWords();
-        numberStringAndEnglishWords.solution("23four5six7");
+        FailureRate failureRate = new FailureRate();
+        failureRate.solution(5, new int[]{2, 1, 2, 6, 2, 4, 3, 3});
     }
 }
