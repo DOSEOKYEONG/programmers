@@ -8,8 +8,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        StringSortAsMyWill stringSortAsMyWill = new StringSortAsMyWill();
-        stringSortAsMyWill.solution(new String[]{"sun", "bed", "car"}, 1);
-//        stringSortAsMyWill.solution(new String[]{"abce", "abcd", "cdx"}, 2);
+        NumberStringAndEnglishWords numberStringAndEnglishWords = new NumberStringAndEnglishWords();
+        numberStringAndEnglishWords.solution("23four5six7");
     }
 }
