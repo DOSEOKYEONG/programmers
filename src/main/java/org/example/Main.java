@@ -8,7 +8,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        SecretMap secretMap = new SecretMap();
-        secretMap.solution(5, new int[]{9, 20, 28, 18, 11}, new int[]{30, 1, 21, 17, 28});
+        StringSortAsMyWill stringSortAsMyWill = new StringSortAsMyWill();
+        stringSortAsMyWill.solution(new String[]{"sun", "bed", "car"}, 1);
+//        stringSortAsMyWill.solution(new String[]{"abce", "abcd", "cdx"}, 2);
     }
 }
