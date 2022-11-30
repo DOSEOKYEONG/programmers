@@ -8,8 +8,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        DartGame dartGame = new DartGame();
-        dartGame.solution("1D2S#10S");
+        Cola cola = new Cola();
+        cola.solution(2, 1, 20);
 
     }
 }

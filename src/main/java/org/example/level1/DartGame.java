@@ -1,6 +1,8 @@
 package org.example.level1;
 
 public class DartGame {
+    // https://school.programmers.co.kr/learn/courses/30/lessons/17682
+    // [1차] 다트 게임
     public int solution(String dartResult) {
         int answer = 0;
 
