@@ -8,7 +8,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        FailureRate failureRate = new FailureRate();
-        failureRate.solution(5, new int[]{2, 1, 2, 6, 2, 4, 3, 3});
+        DartGame dartGame = new DartGame();
+        dartGame.solution("1D2S#10S");
+
     }
 }
