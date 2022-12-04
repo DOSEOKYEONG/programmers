@@ -8,7 +8,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        TouchKeypad touchKeypad = new TouchKeypad();
-        touchKeypad.solution(new int[]{7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2}, "left");
+        NumberCouple numberCouple = new NumberCouple();
+        numberCouple.solution("100", "2345");
     }
 }
