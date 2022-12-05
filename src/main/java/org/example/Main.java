@@ -8,7 +8,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        NumberCouple numberCouple = new NumberCouple();
-        numberCouple.solution("100", "2345");
+        HallOfFame1 hallOfFame1 = new HallOfFame1();
+        hallOfFame1.solution(3, new int[]{10, 100, 20, 150, 1, 100, 200});
     }
 }
