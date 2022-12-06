@@ -8,7 +8,9 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        HallOfFame1 hallOfFame1 = new HallOfFame1();
-        hallOfFame1.solution(3, new int[]{10, 100, 20, 150, 1, 100, 200});
+        MakeBurger makeBurger = new MakeBurger();
+//        makeBurger.solution(new int[]{1, 2, 1, 2, 3, 1, 3, 1, 1, 2, 3, 1});
+        makeBurger.solution(new int[]{1, 1, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1});
+
     }
 }
