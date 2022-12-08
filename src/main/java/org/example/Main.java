@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        EnglishWordChainGame englishWordChainGame = new EnglishWordChainGame();
-        englishWordChainGame.solution(2, new String[]{"hello", "one", "even", "never", "now", "world", "draw"});
+        Nlcm nlcm = new Nlcm();
+        nlcm.solution(new int[]{2,4,6,8,14});
     }
 }
