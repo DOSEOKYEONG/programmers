@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        ExpectedBracket bracket = new ExpectedBracket();
-        bracket.solution(8, 4, 7);
+        LongJump longJump = new LongJump();
+        longJump.solution(3);
     }
 }
