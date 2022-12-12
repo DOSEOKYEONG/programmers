@@ -5,27 +5,12 @@ public class LongJump {
     // 멀리 뛰기
 
     public long solution(int n) {
-        long answer = 0;
-
-        // 1칸 씩
-        answer++;
-
-        // 2 조합
-        for (int i = 1; i * 2 <= n; i++) {
-            answer += combination(n - i, i);
+        int[] dp = new int[2001];
+        dp[1] = 1;
+        dp[2] = 2;
+        for(int i=3; i<2001; i++){
+            dp[i] = (dp[i-2] + dp[i-1]) % 1234567;
         }
-
-        return answer;
-    }
-
-    public static int combination(int n, int k) {
-
-        if (k == 0 || n == k) {
-            return 1;
-        } else if (k == 1) {
-            return n;
-        } else {
-            return combination(n - 1, k - 1) + combination(n - 1, k);
-        }
+        return dp[n];
     }
 }
