@@ -9,10 +9,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Cache cache = new Cache();
-//        cache.solution(3, new String[]{"Jeju", "Pangyo", "Seoul", "NewYork", "LA", "Jeju", "Pangyo", "Seoul", "NewYork", "LA"});
-//        cache.solution(3, new String[]{"Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul"});
-        cache.solution(2, new String[]{"Jeju", "Pangyo", "NewYork", "newyork"});
-
+        FunctionDevelopment functionDevelopment = new FunctionDevelopment();
+        functionDevelopment.solution(new int[]{93, 30, 55}, new int[]{1, 30, 5});
     }
 }
