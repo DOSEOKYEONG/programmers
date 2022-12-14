@@ -9,7 +9,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        FunctionDevelopment functionDevelopment = new FunctionDevelopment();
-        functionDevelopment.solution(new int[]{93, 30, 55}, new int[]{1, 30, 5});
+        Printer printer = new Printer();
+//        printer.solution(new int[]{2, 1, 3, 2}, 2);
+        printer.solution(new int[]{1, 1, 9, 1, 1, 1}, 0);
     }
 }
