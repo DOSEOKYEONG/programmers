@@ -9,25 +9,33 @@ public class Printer {
     public int solution(int[] priorities, int location) {
         int answer = 0;
 
-        Queue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
+        Queue<Integer> queue = new LinkedList<>();
 
-        for (int i = 0; i < priorities.length; i++) {
-            queue.add(priorities[i]);
+        for (Integer num : priorities) {
+            queue.add(num);
         }
 
+        Arrays.sort(priorities);
+
+        int length = priorities.length - 1;
+
         while (!queue.isEmpty()) {
-            for (int i = 0; i < priorities.length; i++) {
-                if (priorities[i] == queue.peek()) {
-                    if (i == location) {
-                        answer++;
-                        return answer;
-                    }
-                    queue.poll();
-                    answer++;
+            int i = queue.poll();
+            if (i == priorities[length - answer]) {
+                answer++;
+                location--;
+                if (location < 0) {
+                    break;
+                }
+            } else {
+                queue.add(i);
+                location--;
+                if (location < 0) {
+                    location = queue.size() - 1;
                 }
             }
         }
 
-        return -1;
+        return answer;
     }
 }
