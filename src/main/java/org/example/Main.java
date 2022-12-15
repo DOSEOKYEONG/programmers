@@ -9,8 +9,9 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Printer printer = new Printer();
-//        printer.solution(new int[]{2, 1, 3, 2}, 2);
-        printer.solution(new int[]{1, 1, 9, 1, 1, 1}, 0);
+        NewsClustering newsClustering = new NewsClustering();
+        newsClustering.solution("FRANCE", "french");
+//        newsClustering.solution("aa1+aa2", "AAAA12");
+
     }
 }
