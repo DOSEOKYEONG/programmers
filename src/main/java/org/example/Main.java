@@ -9,9 +9,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        NewsClustering newsClustering = new NewsClustering();
-        newsClustering.solution("FRANCE", "french");
-//        newsClustering.solution("aa1+aa2", "AAAA12");
+        PhoneNumberList phoneNumberList = new PhoneNumberList();
+        phoneNumberList.solution(new String[]{"119", "97674223", "1195524421"});
 
     }
 }
