@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="arraytest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-04T08:33:39" hostname="DESKTOP-K414K2T" time="0.013">
+<testsuite name="arraytest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-19T08:44:22" hostname="DESKTOP-K414K2T" time="0.013">
   <properties/>
-  <testcase name="ArrayTest()" classname="arraytest" time="0.013"/>
-  <system-out><![CDATA[4
+  <testcase name="qwe()" classname="arraytest" time="0.013"/>
+  <system-out><![CDATA[211020101011
+110011
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

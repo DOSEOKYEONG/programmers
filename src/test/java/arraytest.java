@@ -5,15 +5,8 @@ import java.util.ArrayList;
 
 public class arraytest {
     @Test
-    void ArrayTest() {
-        ArrayList<Integer> asd = new ArrayList<>();
-        asd.add(1);
-        asd.add(2);
-        asd.add(3);
-        asd.add(4);
-
-        asd.remove(2);
-
-        System.out.println(asd.get(2));
+    void qwe() {
+        System.out.println(Integer.toString(437674, 3));
+        System.out.println(Integer.toString(110011, 10));
     }
 }

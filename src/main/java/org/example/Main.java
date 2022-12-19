@@ -9,8 +9,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        PhoneNumberList phoneNumberList = new PhoneNumberList();
-        phoneNumberList.solution(new String[]{"119", "97674223", "1195524421"});
-
+        MoreSpicy moreSpicy = new MoreSpicy();
+        moreSpicy.solution(new int[]{1, 2, 3, 9, 10, 12}, 3);
     }
 }
