@@ -1,12 +1,18 @@
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
+import java.util.*;
 
 
 public class arraytest {
     @Test
     void qwe() {
-        System.out.println(Integer.toString(437674, 3));
-        System.out.println(Integer.toString(110011, 10));
+        Queue<Integer> queue = new LinkedList<>();
+        for (int i = 0; i < 10; i++) {
+            queue.add(i);
+        }
+
+        for (Integer i : queue) {
+            System.out.println(i);
+        }
     }
 }
