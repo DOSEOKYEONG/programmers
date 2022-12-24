@@ -9,8 +9,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        NJinsuGame nJinsuGame = new NJinsuGame();
-//        nJinsuGame.solution(2, 4, 2, 1);
-        nJinsuGame.solution(16, 16, 2, 1);
+        PickTangerine pickTangerine = new PickTangerine();
+        pickTangerine.solution(4, new int[]{1, 3, 2, 5, 4, 5, 2, 3});
     }
 }
