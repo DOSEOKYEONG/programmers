@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        PickTangerine pickTangerine = new PickTangerine();
-        pickTangerine.solution(4, new int[]{1, 3, 2, 5, 4, 5, 2, 3});
+        SkillTree skillTree = new SkillTree();
+        skillTree.solution("CBD", new String[]{"BACDE", "CBADF", "AECB", "BDA"});
     }
 }
