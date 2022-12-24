@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        SkillTree skillTree = new SkillTree();
-        skillTree.solution("CBD", new String[]{"BACDE", "CBADF", "AECB", "BDA"});
+        EatGround eatGround = new EatGround();
+        eatGround.solution(new int[][]{{1,2,3,5},{5,6,7,8},{4,3,2,1}});
     }
 }
