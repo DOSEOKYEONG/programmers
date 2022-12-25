@@ -9,7 +9,9 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        EatGround eatGround = new EatGround();
-        eatGround.solution(new int[][]{{1,2,3,5},{5,6,7,8},{4,3,2,1}});
+
+        FriendsFourBlock friendsFourBlock = new FriendsFourBlock();
+//        friendsFourBlock.solution(4, 5, new String[]{"CCBDE", "AAADE", "AAABF", "CCBBF"});
+        friendsFourBlock.solution(6, 6, new String[]{"TTTANT", "RRFACC", "RRRFCC", "TRRRAA", "TTMMMF", "TMMTTJ"});
     }
 }
