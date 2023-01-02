@@ -9,9 +9,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
-        FriendsFourBlock friendsFourBlock = new FriendsFourBlock();
-//        friendsFourBlock.solution(4, 5, new String[]{"CCBDE", "AAADE", "AAABF", "CCBBF"});
-        friendsFourBlock.solution(6, 6, new String[]{"TTTANT", "RRFACC", "RRRFCC", "TRRRAA", "TTMMMF", "TMMTTJ"});
+        VisitLength visitLength = new VisitLength();
+//        visitLength.solution("ULURRDLLU");
+        visitLength.solution("LULLLLLLU");
     }
 }

@@ -4,8 +4,12 @@ public class EatGround {
     // https://school.programmers.co.kr/learn/courses/30/lessons/12913
     // 땅따먹기
 
+    int answer;
+    int[][] land;
+
     public int solution(int[][] land) {
-        int answer = 0;
+        this.answer = 0;
+        this.land = land;
 
 //        dfs(1, 0, land[0][0]);
 //        dfs(1, 1, land[0][1]);
@@ -20,6 +24,8 @@ public class EatGround {
         }
 
         return max(land[land.length - 1]);
+
+//        return answer;
     }
 
     private int max(int[] ints) {
@@ -32,15 +38,16 @@ public class EatGround {
     }
 
 
-//    public void dfs(int depth, int index, int total) {
-//        if (depth == land.length) {
-//            answer = Math.max(total, answer);
-//            return;
-//        }
-//        for (int i = 0; i < 4; i++) {
-//            if (i != index) {
-//                dfs(depth + 1, i, total + land[depth][i]);
-//            }
-//        }
-//    }
+    public void dfs(int depth, int index, int total) {
+        if (depth == land.length) {
+            answer = Math.max(total, answer);
+            return;
+        }
+        for (int i = 0; i < 4; i++) {
+            if (i != index) {
+                System.out.println("total : " + total + " + " + land[depth][i]);
+                dfs(depth + 1, i, total + land[depth][i]);
+            }
+        }
+    }
 }
