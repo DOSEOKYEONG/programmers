@@ -9,8 +9,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        VisitLength visitLength = new VisitLength();
-//        visitLength.solution("ULURRDLLU");
-        visitLength.solution("LULLLLLLU");
+        FileNameSort fileNameSort = new FileNameSort();
+        fileNameSort.solution(new String[]{"img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"});
     }
 }
