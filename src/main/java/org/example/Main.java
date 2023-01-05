@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        FileNameSort fileNameSort = new FileNameSort();
-        fileNameSort.solution(new String[]{"img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"});
+        SerialPartNumberSums serialPartNumberSums = new SerialPartNumberSums();
+        serialPartNumberSums.solution(new int[]{7, 9, 1, 1, 4});
     }
 }
