@@ -9,7 +9,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        SerialPartNumberSums serialPartNumberSums = new SerialPartNumberSums();
-        serialPartNumberSums.solution(new int[]{7, 9, 1, 1, 4});
+        DiscountEvent discountEvent = new DiscountEvent();
+        discountEvent.solution(new String[]{"banana", "apple", "rice", "pork", "pot"},
+                new int[]{3, 2, 2, 2, 1}, new String[]{"chicken", "apple", "apple", "banana", "rice", "apple", "pork", "banana", "pork", "rice", "pot", "banana", "apple", "banana"});
     }
 }
