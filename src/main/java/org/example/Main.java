@@ -9,7 +9,12 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        VowelDictionary vowelDictionary = new VowelDictionary();
-        vowelDictionary.solution("AAAE");
+        GameMapShortest gameMapShortest = new GameMapShortest();
+        gameMapShortest.solution(new int[][]{
+                {1, 0, 1, 1, 1},
+                {1, 0, 1, 0, 1},
+                {1, 0, 1, 1, 1},
+                {1, 1, 1, 0, 1},
+                {0, 0, 0, 0, 1}});
     }
 }
