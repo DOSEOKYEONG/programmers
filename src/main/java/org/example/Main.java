@@ -9,12 +9,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        GameMapShortest gameMapShortest = new GameMapShortest();
-        gameMapShortest.solution(new int[][]{
-                {1, 0, 1, 1, 1},
-                {1, 0, 1, 0, 1},
-                {1, 0, 1, 1, 1},
-                {1, 1, 1, 0, 1},
-                {0, 0, 0, 0, 1}});
+        Two_X_N_Tiling twoXNTiling = new Two_X_N_Tiling();
+        System.out.println(twoXNTiling.solution(2));
     }
 }
