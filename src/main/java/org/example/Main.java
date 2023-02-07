@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Two_X_N_Tiling twoXNTiling = new Two_X_N_Tiling();
-        System.out.println(twoXNTiling.solution(2));
+        DifferentUnderTwo differentUnderTwo = new DifferentUnderTwo();
+        differentUnderTwo.solution(new long[]{2, 7, 10, 12, 13, 15, 35, 41, 43});
     }
 }
