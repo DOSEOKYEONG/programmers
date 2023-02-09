@@ -1,13 +1,15 @@
-import org.junit.jupiter.api.Test;
+package org.example.level2;
 
-import java.text.DecimalFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
+public class BiggestNumber {
+    // https://school.programmers.co.kr/learn/courses/30/lessons/42746
+    // 가장 큰 수
 
-public class arraytest {
-    @Test
-    void qwe() {
-        int[] numbers = new int[]{3, 30, 34, 5, 9};
+    public String solution(int[] numbers) {
+        String answer = "";
         ArrayList<String> arrayList = new ArrayList<>();
 
         for (int a : numbers) {
@@ -20,15 +22,20 @@ public class arraytest {
                 Long num1 = convertNum(o1, o2);
                 Long num2 = convertNum(o2, o1);
 
-                System.out.println(num1);
-                System.out.println(num2);
-
                 int ss = (int) (num2 - num1);
                 return ss;
             }
         });
 
-        System.out.println(arrayList.toString());
+        for (String s : arrayList) {
+            answer += s;
+        }
+
+        if (answer.charAt(0) == '0'){
+            answer = "0";
+        }
+
+        return answer;
     }
 
     public Long convertNum(String str1, String str2){

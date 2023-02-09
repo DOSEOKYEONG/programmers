@@ -9,9 +9,11 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        PassingBridgeTruck passingBridgeTruck = new PassingBridgeTruck();
-        passingBridgeTruck.solution(2, 10, new int[]{7, 4, 5, 6});
-        passingBridgeTruck.solution(100, 100, new int[]{10});
-        passingBridgeTruck.solution(100, 100, new int[]{10,10,10,10,10,10,10,10,10,10});
+        BiggestNumber biggestNumber = new BiggestNumber();
+//        biggestNumber.solution(new int[]{6, 10, 2});
+//        biggestNumber.solution(new int[]{3, 30, 34, 5, 9});
+//        biggestNumber.solution(new int[]{1, 10, 100, 1000, 818, 81, 898, 89, 0, 0});
+        System.out.println(biggestNumber.solution(new int[]{0, 0, 0, 0}));
+//        biggestNumber.solution(new int[]{3, 30});
     }
 }
