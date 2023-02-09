@@ -9,7 +9,9 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        DifferentUnderTwo differentUnderTwo = new DifferentUnderTwo();
-        differentUnderTwo.solution(new long[]{2, 7, 10, 12, 13, 15, 35, 41, 43});
+        PassingBridgeTruck passingBridgeTruck = new PassingBridgeTruck();
+        passingBridgeTruck.solution(2, 10, new int[]{7, 4, 5, 6});
+        passingBridgeTruck.solution(100, 100, new int[]{10});
+        passingBridgeTruck.solution(100, 100, new int[]{10,10,10,10,10,10,10,10,10,10});
     }
 }
