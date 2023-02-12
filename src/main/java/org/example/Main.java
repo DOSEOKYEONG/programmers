@@ -9,10 +9,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        OneTwoFourWorldsNumber oneTwoFourWorldsNumber = new OneTwoFourWorldsNumber();
-        for (int i = 4; i <= 30; i++) {
-            oneTwoFourWorldsNumber.solution(i);
-        }
-
+        MakingBigNum makingBigNum = new MakingBigNum();
+        makingBigNum.solution("1234567", 3);
     }
 }
