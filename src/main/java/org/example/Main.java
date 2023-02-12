@@ -9,9 +9,10 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        FindingPrimeNumber findingPrimeNumber = new FindingPrimeNumber();
-//        findingPrimeNumber.solution("0123");
-//        findingPrimeNumber.solution("17");
-        findingPrimeNumber.solution("011");
+        OneTwoFourWorldsNumber oneTwoFourWorldsNumber = new OneTwoFourWorldsNumber();
+        for (int i = 4; i <= 30; i++) {
+            oneTwoFourWorldsNumber.solution(i);
+        }
+
     }
 }
