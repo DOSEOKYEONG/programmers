@@ -9,7 +9,9 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        MakingBigNum makingBigNum = new MakingBigNum();
-        makingBigNum.solution("1234567", 3);
+        TriAngleSnail triAngleSnail = new TriAngleSnail();
+        System.out.println(triAngleSnail.solution(4));
+        System.out.println(triAngleSnail.solution(5));
+        System.out.println(triAngleSnail.solution(6));
     }
 }
